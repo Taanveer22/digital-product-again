@@ -1,10 +1,21 @@
-*{
+/* common css styles */
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
-.menu-container{
+.btn-primary {
+    background-color: red;
+    border-radius: 3px;
+    padding: 14px 21px;
+    border: none;
+    color: white;
+}
+
+
+/* nav related styles */
+.menu-container {
     background-color: #424141;
     display: flex;
     align-items: center;
@@ -13,19 +24,45 @@
     color: white;
 }
 
-.logo-photo{
+.logo-photo {
     width: 120px;
 }
 
-.menu-items{
+.menu-items {
     display: flex;
     gap: 15px;
     list-style: none;
     font-size: 18px;
 }
 
-.item:hover{
+.item:hover {
     color: rgb(0, 225, 255);
     font-size: 24px;
     cursor: pointer;
+}
+
+
+/* banner related styles */
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background: url('images/background.png'), linear-gradient(45deg, #1f1c1c, #231f1f);
+    height: 100vh;
+}
+
+.banner-title{
+    font-size: 54px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.banner-description{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.banner-div-img {
+    width: 300px;
 }
