@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.menu-container{
+    background-color: #424141;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    color: white;
+}
+
+.logo-photo{
+    width: 120px;
+}
+
+.menu-items{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.item:hover{
+    color: rgb(0, 225, 255);
+    font-size: 24px;
+    cursor: pointer;
+}
